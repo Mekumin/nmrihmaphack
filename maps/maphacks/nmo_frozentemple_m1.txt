@@ -1,0 +1,19 @@
+"Maphack"
+{	
+	"entities"
+	{
+		$modify
+		{
+			"match"
+			{
+				"classname" "trigger_hurt"
+				"name" "atk_blanket"
+			}
+			"replace"
+			{
+				"Damage"	"10"		
+				"Damage Cap"	"20"		
+			}
+		}
+	}
+}
