@@ -1,0 +1,23 @@
+"Maphack"
+{	
+	"entities"
+	{
+		$modify
+		{
+			"match"
+			{
+				"hammerid" "402806"
+			}
+			"delete"
+			{
+				"OnUser1"	"!self,AddItem,item_pills,0.03,-1"		
+				"OnUser1"	"!self,AddItem,item_bandages,0.03,-1"		
+			}			
+			"insert"
+			{
+				"OnUser1"	"!self,AddItem,item_gene_therapy,0.03,-1"		
+				"OnUser1"	"!self,AddItem,item_gene_therapy,0.03,-1"		
+			}
+		}
+	}
+}
