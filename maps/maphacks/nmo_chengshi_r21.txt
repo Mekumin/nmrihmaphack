@@ -1,0 +1,13 @@
+"MapHack"
+{
+	"entities"
+	{
+		overlord_zombie_helper
+		{
+			"origin" "384 -2144 -95.12"
+			"spawnflags" "0"
+			"spawn_density" "1"
+			"max_zombie_count" "200"
+		}
+	}
+}
